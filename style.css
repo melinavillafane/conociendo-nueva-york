@@ -127,7 +127,7 @@ main section p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    row-gap: 90px;
+    row-gap: 50px;
     column-gap: 50px;
     padding-bottom: 60px;
 }
@@ -300,6 +300,16 @@ main section p {
 .form-contacto input {
     border: 1px solid #fda5a5;
     border-radius: 5px 5px;
+    width: 185px;
+}
+
+.form-contacto input:not(.input-enviar) {
+    width: 185px;
+}
+
+.form-label {
+    width: 75px;
+    text-align: center;
 }
 
 .form-contacto input:focus {
@@ -338,13 +348,20 @@ footer section p {
 
 /*Media query - tablet*/
 @media screen and (max-width: 1024px) {
-    .main-que-hacer {
-        margin-bottom: 10px;
+    .main-distritos {
+        padding-bottom: 20px;
+    }
+    
+    .que-hacer {
+        margin-bottom: 20px;
     }    
     
     .form-contacto {
         display: flex;
         flex-direction: column;
+    }
+
+    .form-contacto div {
         margin-bottom: 10px;
     }
 }
@@ -379,7 +396,7 @@ footer section p {
     }
 
     .main-novedades {
-        column-gap: 15px;
+        row-gap: 15px;
     }
 
     .img-contacto {
