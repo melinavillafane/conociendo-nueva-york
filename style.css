@@ -340,16 +340,18 @@ footer section p {
         width: 100px;
     }
 
-    .google-maps {
-        width: 400px;
-        height: 250px;
-    }
-
     .contenedor-footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         height: 160px;
+    }
+
+    .google-maps {
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        height: 150px;
     }
     
     .main-novedades {
