@@ -258,7 +258,7 @@ main section p {
 .form-contacto {
     margin-top: 10px;
     display: grid;
-    grid-template-columns: 300px 300px;
+    grid-template-columns: 450px 450px;
     grid-template-rows: 80px 80px 80px;
     grid-template-areas: 
     'nombre comentario'
@@ -288,9 +288,7 @@ main section p {
     grid-area: enviar;
 }
 
-.enviar input {
-    width: 50px;
-}
+
 
 .form-contacto textarea {
     border-radius: 5px 5px;
@@ -300,16 +298,17 @@ main section p {
 .form-contacto input {
     border: 1px solid #fda5a5;
     border-radius: 5px 5px;
-    width: 185px;
+    width: 190px;
 }
 
 .form-contacto input:not(.input-enviar) {
-    width: 185px;
+    width: 50px;
 }
 
 .form-label {
-    width: 75px;
+    width: 80px;
     text-align: center;
+    align-items: center;
 }
 
 .form-contacto input:focus {
