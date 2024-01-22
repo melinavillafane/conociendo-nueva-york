@@ -353,12 +353,6 @@ footer section p {
         justify-content: center;
     }
 
-    .google-maps iframe {
-        width: 300px;
-        height: 150px;
-        padding-bottom: 50px;
-    }
-
     .main-novedades {
         column-gap: 15px;
     }
