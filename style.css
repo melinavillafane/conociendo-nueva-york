@@ -172,11 +172,15 @@ main section p {
 
 .main-que-hacer {
     padding-bottom: 25px;
+}
+
+.row-que-hacer {
     row-gap: 40px;
 }
 
 .que-hacer {
-    width: 550px; 
+    width: 550px;
+    margin-bottom: 15px;
 }
 
 .que-hacer .img1 {
@@ -286,10 +290,16 @@ main section p {
 
 .form-contacto textarea {
     border-radius: 5px 5px;
-    border-color: #f08080;
+    border-color: #fda5a5;
 }
 
 .form-contacto input {
+    border-color: #fda5a5;
+    border: 1px solid;
+    border-radius: 5px 5px;
+}
+
+.form-contacto input:focus {
     border-color: #f08080;
 }
 
@@ -327,11 +337,13 @@ footer section p {
 @media screen and (max-width: 1024px) {
     .main-distritos {
         flex-direction: column;
+        justify-content: center;
     }
 
     .form-contacto {
         display: flex;
         flex-direction: column;
+        column-gap: 10px;
     }
 }
 
@@ -366,6 +378,12 @@ footer section p {
 
     .main-novedades {
         column-gap: 15px;
+    }
+
+    .main-contacto img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
