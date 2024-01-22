@@ -167,7 +167,7 @@ main section p {
 }
 
 .main-que-hacer {
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     column-gap: 40px;
 }
 
@@ -329,7 +329,7 @@ footer section p {
     header{
         flex-direction: column;
         position: relative;
-        height: 250px;
+        height: 160px;
     }
 
     header nav ul {
@@ -338,6 +338,16 @@ footer section p {
 
     header img {
         width: 100px;
+    }
+
+    .contenedor-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .main-novedades {
+        column-gap: 15px;
     }
 }
 
