@@ -127,18 +127,19 @@ main section p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    row-gap: 80px;
+    row-gap: 90px;
     column-gap: 50px;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
 }
 
 .distritos {
     width: 400px;
+    height: 600px;
 }
 
 .distritos .img-distritos {
     width: 100%; 
-    height: 70%;
+    height: 60%;
     border-radius: 10px 10px;
     box-shadow: 8px 8px 9px 0px rgba(0,0,0,0.5);
 }
@@ -152,6 +153,7 @@ main section p {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    font-family: serif;
     row-gap: 50px;
     padding-top: 20px;
 }
