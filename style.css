@@ -129,12 +129,12 @@ main section p {
     justify-content: space-evenly;
     row-gap: 90px;
     column-gap: 50px;
-    padding-bottom: 95px;
+    padding-bottom: 60px;
 }
 
 .distritos {
     width: 400px;
-    height: 610px;
+    height: 615px;
 }
 
 .distritos .img-distritos {
@@ -171,8 +171,8 @@ main section p {
 }
 
 .main-que-hacer {
-    padding-bottom: 20px;
-    column-gap: 40px;
+    padding-bottom: 25px;
+    row-gap: 40px;
 }
 
 .que-hacer {
@@ -197,6 +197,7 @@ main section p {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    font-family: serif;
     row-gap: 50px;
     padding-top: 20px;
 }
@@ -251,7 +252,7 @@ main section p {
 }
 
 .form-contacto {
-    margin-top: 50px;
+    margin-top: 10px;
     display: grid;
     grid-template-columns: 300px 300px;
     grid-template-rows: 80px 80px 80px;
@@ -268,6 +269,7 @@ main section p {
 
 .apellido {
     grid-area: apellido;
+    
 }
 
 .comentario {
@@ -284,9 +286,15 @@ main section p {
 
 .form-contacto textarea {
     border-radius: 5px 5px;
+    border-color: #f08080;
+}
+
+.form-contacto input {
+    border-color: #f08080;
 }
 
 .main-contacto img {
+    margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px 10px;
     width: 400px;
@@ -318,6 +326,11 @@ footer section p {
 /*Media query - tablet*/
 @media screen and (max-width: 1024px) {
     .main-distritos {
+        flex-direction: column;
+    }
+
+    .form-contacto {
+        display: flex;
         flex-direction: column;
     }
 }
