@@ -167,7 +167,8 @@ main section p {
 }
 
 .main-que-hacer {
-    padding: 15px;
+    padding-bottom: 15px;
+    column-gap: 40px;
 }
 
 .que-hacer {
