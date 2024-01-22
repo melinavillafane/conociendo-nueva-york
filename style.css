@@ -288,14 +288,17 @@ main section p {
     grid-area: enviar;
 }
 
+.enviar input {
+    width: 50px;
+}
+
 .form-contacto textarea {
     border-radius: 5px 5px;
     border-color: #fda5a5;
 }
 
 .form-contacto input {
-    border-color: #fda5a5;
-    border: 1px solid;
+    border: 1px solid #fda5a5;
     border-radius: 5px 5px;
 }
 
@@ -335,15 +338,14 @@ footer section p {
 
 /*Media query - tablet*/
 @media screen and (max-width: 1024px) {
-    .main-distritos {
-        flex-direction: column;
-        justify-content: center;
-    }
-
+    .main-que-hacer {
+        margin-bottom: 10px;
+    }    
+    
     .form-contacto {
         display: flex;
         flex-direction: column;
-        column-gap: 10px;
+        margin-bottom: 10px;
     }
 }
 
@@ -380,10 +382,11 @@ footer section p {
         column-gap: 15px;
     }
 
-    .main-contacto img {
+    .img-contacto {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        text-align: center;
     }
 }
 
