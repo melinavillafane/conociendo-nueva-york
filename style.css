@@ -43,6 +43,11 @@ main section img {
 .navbar-toggler {
     color: #f08080;
     border-radius: 10px;
+    border-color: #f08080;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 2px 2px;
 }
 
 /*Reset*/
@@ -344,7 +349,7 @@ footer section p {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 160px;
+        height: 150px;
     }
 
     .google-maps {
