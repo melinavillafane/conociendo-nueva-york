@@ -134,7 +134,7 @@ main section p {
 
 .distritos {
     width: 400px;
-    height: 615px;
+    height: 620px;
 }
 
 .distritos .img-distritos {
@@ -143,7 +143,6 @@ main section p {
     border-radius: 10px 10px;
     box-shadow: 8px 8px 9px 0px rgba(0,0,0,0.5);
 }
-
 
 .distritos h2 {
     display: flex;
@@ -171,7 +170,7 @@ main section p {
 }
 
 .main-que-hacer {
-    padding-bottom: 25px;
+    padding-bottom: 5px;
 }
 
 .que-hacer {
@@ -224,6 +223,7 @@ main section p {
 /*Main novedades*/
 .novedades {
     width: 400px;
+    height: 630px;
 }
 
 .novedades img {
@@ -286,11 +286,13 @@ main section p {
 
 .enviar input {
     width: 50px;
+    align-self: flex-end;
 }
 
 .form-contacto textarea {
     border-radius: 5px 5px;
     border-color: #fda5a5;
+    align-self: center;
 }
 
 .form-contacto input {
@@ -301,11 +303,6 @@ main section p {
 .form-contacto input:not(.input-enviar) {
     width: 190px;
 }
-
-/*.form-label {
-    width: 80px;
-    text-align: center;
-}*/
 
 .form-contacto div input:focus {
     border-color: #f08080;
@@ -345,8 +342,6 @@ footer section p {
 @media screen and (max-width: 1024px) {
     .main-distritos {
         padding-bottom: 20px;
-        flex-direction: column;
-        justify-content: center;
     }
     
     .que-hacer {
