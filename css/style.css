@@ -274,6 +274,7 @@ main section p {
 
 .comentario {
     grid-area: comentario;
+    display: grid;
 }
 
 .email {
@@ -282,11 +283,12 @@ main section p {
 
 .enviar {
     grid-area: enviar;
+    display: grid;
 }
 
 .enviar input {
     width: 50px;
-    align-self: flex-end;
+    align-self: center;
 }
 
 .form-contacto textarea {
@@ -341,7 +343,7 @@ footer section p {
 /*Media query - tablet*/
 @media screen and (max-width: 1024px) {
     .main-distritos {
-        padding-bottom: 20px;
+        padding-bottom: 0px;
     }
     
     .que-hacer {
