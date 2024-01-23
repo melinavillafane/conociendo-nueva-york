@@ -275,6 +275,7 @@ main section p {
 .comentario {
     grid-area: comentario;
     display: grid;
+    justify-content: center;
 }
 
 .email {
@@ -284,6 +285,7 @@ main section p {
 .enviar {
     grid-area: enviar;
     display: grid;
+    justify-content: center;
 }
 
 .enviar input {
@@ -295,6 +297,7 @@ main section p {
     border-radius: 5px 5px;
     border-color: #fda5a5;
     align-self: center;
+    
 }
 
 .form-contacto input {
