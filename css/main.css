@@ -319,7 +319,7 @@ header nav div a img {
   header nav ul {
     flex-direction: column;
   }
-  header img {
+  header nav div img {
     width: 100px;
   }
   .contenedor-footer {

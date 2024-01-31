@@ -11,9 +11,6 @@
     .form-contacto {
         display: flex;
         flex-direction: column;
-    }
-
-    .form-contacto {
         div {
             margin-bottom: 10px;
         }
@@ -47,8 +44,12 @@
     }
 
     header {
-        img {
-            width: 100px;
+        nav {
+            div {
+                img {
+                    width: 100px;
+                }
+            }
         }
     }
 
