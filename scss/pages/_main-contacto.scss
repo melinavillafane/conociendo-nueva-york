@@ -1,0 +1,65 @@
+/*Main contacto*/
+.main-contacto {
+    text-align: center;
+    section {
+        .formulario {
+            .form-contacto {
+                margin-top: 10px;
+                display: grid;
+                grid-template-columns: 450px 450px;
+                grid-template-rows: 80px 80px 80px;
+                grid-template-areas: 
+                'nombre comentario'
+                'apellido comentario'
+                'email enviar';
+                justify-content: center;
+                .nombre {
+                    grid-area: nombre;
+                }
+                .apellido {
+                    grid-area: apellido;
+                }
+                .comentario {
+                    grid-area: comentario;
+                    display: grid;
+                    justify-content: center;
+                    textarea {
+                        border-radius: 5px 5px;
+                        border-color: nth($list: $colores, $n: 3);
+                        align-self: center;
+                    }
+                }
+                .email {
+                    grid-area: email;
+                }
+                .enviar {
+                    grid-area: enviar;
+                    display: grid;
+                    justify-content: center;
+                    input {
+                        width: 50px;
+                        align-self: center;
+                    }
+                }
+                div {
+                    input {
+                        border: 1px solid #fda5a5;
+                        border-radius: 5px 5px;
+                        &:not(.input-enviar) {
+                            width: 190px;
+                        }
+                        &:focus {
+                            border-color: nth($list: $colores, $n: 1);
+                        }
+                    }
+                }
+            }
+        }
+        img {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-radius: 10px 10px;
+            width: 400px;
+        }      
+    }
+}

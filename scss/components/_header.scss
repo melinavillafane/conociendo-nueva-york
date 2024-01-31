@@ -1,0 +1,28 @@
+/*Header*/
+header {
+    background-color: nth($list: $colores, $n: 2);
+    @include sizes (100%, 160px);
+    position: sticky;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    z-index: 2;
+    nav {
+        div {
+            div {
+                ul {
+                    li {
+                        list-style-type: none;
+                    }
+                }
+            }
+            a {
+                img {
+                    width: 160px;
+                }
+            }
+        }
+    }
+}

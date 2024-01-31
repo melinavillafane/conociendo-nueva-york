@@ -1,0 +1,22 @@
+/*Footer*/
+.contenedor-footer {
+    background-color: nth($list: $colores, $n: 2);
+    display: grid;
+    grid-template-columns: 100px 100px 3fr;
+    grid-template-rows: 100%;
+    gap: 10px;
+    height: 50px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    .footer {
+        a {
+            text-decoration: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: black;
+        }
+        p {
+            text-align: right;
+        }
+    }
+}

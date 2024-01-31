@@ -1,0 +1,53 @@
+/*Estilos globales*/
+html {
+    font-size: 16px;
+    background-color: #f6d6d647;
+}
+
+main {
+    h1 {
+        font-family: 'Kalnia', serif;
+        text-align: center;
+        color: nth($list: $colores, $n: 1);
+        font-size: 2.5rem;
+        padding: 30px
+    }
+    section {
+        p {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: larger; 
+        }
+    }
+}
+
+header {
+    .navbar {
+        width: 100%;
+        .padding-0 {
+            padding-left: 0;
+            .navbar-toggler {
+                color: nth($list: $colores, $n: 1);
+                border-radius: 10px;
+                border-color: nth($list: $colores, $n: 1);
+                &:focus {
+                    box-shadow: 2px 2px;
+                }
+            }
+            .menu {
+                flex-grow: 0;
+                .menu-ul {
+                    align-items: center;
+                    .nav-item {
+                        .nav-link {
+                            font-weight: 500;
+                            &:hover {
+                                color: nth($list: $colores, $n: 1);
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

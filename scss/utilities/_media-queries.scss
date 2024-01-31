@@ -1,0 +1,78 @@
+/*Media queries*/
+@media screen and (max-width: 1024px) {
+    .section-distritos {
+        padding-bottom: 0px;
+    }
+    
+    .que-hacer {
+        margin-bottom: 20px;
+    }    
+    
+    .form-contacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-contacto {
+        div {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .menu {
+        position: absolute;
+        top: 160px;
+        background-color: nth($list: $colores, $n: 2);
+        width: 100%;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        flex-direction: column;
+        position: relative;
+        height: 160px;
+    }
+
+    header {
+        nav {
+            ul {
+                flex-direction: column;
+            }
+            
+        }
+    }
+
+    header {
+        img {
+            width: 100px;
+        }
+    }
+
+    .contenedor-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 150px;
+    }
+
+    .google-maps {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .novedades {
+        margin-bottom: 10px;
+    }
+
+    .img-contacto {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+}

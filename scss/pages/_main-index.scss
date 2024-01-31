@@ -1,0 +1,35 @@
+/*Main inicio*/
+.main-index {
+    section {
+        div {
+            .carousel {
+                padding: 15px;
+                margin: 15px;
+                background-color: nth($list: $colores, $n: 2);
+                width: 400px;
+                border-radius: 5px;
+                div {
+                    .carousel-item {
+                        transition: transform 2s ease, opacity .5s ease-out;
+                        img {
+                            @include sizes(100%, 500px);
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+            .parrafo-inicio {
+                text-align: center;
+                text-transform: uppercase;
+                padding: 25px; 
+            }
+        }
+    }
+    .google-maps {
+        text-align: center;
+        padding-bottom: 10px;
+        .nyc-map {
+            border-radius: 10px 10px;
+        }
+    }
+}
