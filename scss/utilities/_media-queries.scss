@@ -8,11 +8,17 @@
         margin-bottom: 20px;
     }    
     
-    .form-contacto {
-        display: flex;
-        flex-direction: column;
-        div {
-            margin-bottom: 10px;
+    .main-contacto {
+        section {
+            .formulario {
+                .form-contacto {
+                    display: flex;
+                    flex-direction: column;
+                    div {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
         }
     }
 }
@@ -46,8 +52,10 @@
     header {
         nav {
             div {
-                img {
-                    width: 100px;
+                a {
+                    img {
+                        width: 100px;
+                    }
                 }
             }
         }

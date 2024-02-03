@@ -51,6 +51,12 @@ header .navbar .padding-0 .menu .menu-ul .nav-item .nav-link:hover {
   text-decoration: underline;
 }
 
+.main-novedades .section-novedades div .novedades p, .main-que-hacer .section-que-hacer div div .que-hacer p, .main-distritos .section-distritos .distritos p {
+  padding-top: 20px;
+  align-items: center;
+  text-align: center;
+}
+
 /*Header*/
 header {
   background-color: #fee5e5;
@@ -131,10 +137,7 @@ header nav div a img {
 .main-distritos .section-distritos .distritos p {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
   justify-content: center;
-  padding-top: 20px;
 }
 
 /*Main que hacer*/
@@ -169,10 +172,7 @@ header nav div a img {
 .main-que-hacer .section-que-hacer div div .que-hacer p {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
   justify-content: center;
-  padding-top: 20px;
 }
 .main-que-hacer .section-que-hacer div div .que-hacer .lista-que-hacer {
   display: flex;
@@ -201,12 +201,6 @@ header nav div a img {
   text-align: center;
   font-family: serif;
 }
-.main-novedades .section-novedades div .novedades p {
-  padding-top: 20px;
-  align-items: center;
-  text-align: center;
-}
-
 /*Main contacto*/
 .main-contacto {
   text-align: center;
@@ -293,11 +287,11 @@ header nav div a img {
   .que-hacer {
     margin-bottom: 20px;
   }
-  .form-contacto {
+  .main-contacto section .formulario .form-contacto {
     display: flex;
     flex-direction: column;
   }
-  .form-contacto div {
+  .main-contacto section .formulario .form-contacto div {
     margin-bottom: 10px;
   }
 }
@@ -319,7 +313,7 @@ header nav div a img {
   header nav ul {
     flex-direction: column;
   }
-  header nav div img {
+  header nav div a img {
     width: 100px;
   }
   .contenedor-footer {

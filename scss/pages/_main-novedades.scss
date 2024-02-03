@@ -16,9 +16,7 @@
                     font-family: serif;
                 }
                 p{
-                    padding-top: 20px;
-                    align-items: center;
-                    text-align: center;
+                    @extend %estilos-p;
                 }
             }
         }
