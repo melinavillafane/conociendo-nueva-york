@@ -85,3 +85,33 @@
         text-align: center;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .main-distritos {
+        .section-distritos {
+            row-gap: 65px;
+            .distritos {
+                .img-distritos {
+                    @include sizes (90%, 50%);
+                }
+            }
+        }
+    }
+    .main-que-hacer {
+        .section-que-hacer {
+            div {
+                div {
+                    .que-hacer {
+                        margin-bottom: 30px;
+                        .img1 {
+                            @include sizes (100%, 25%);
+                        }
+                        .img2 {
+                            @include sizes (100%, 45%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
