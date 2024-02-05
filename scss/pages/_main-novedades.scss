@@ -2,6 +2,7 @@
 .main-novedades {
     .section-novedades {
         div {
+            margin-bottom: 10px;
             .novedades {
                 @include sizes(400px, 720px);
                 img {

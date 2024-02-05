@@ -89,12 +89,14 @@
 @media screen and (max-width: 320px) {
     .main-distritos {
         .section-distritos {
-            row-gap: 40px;
+            row-gap: 30px;
             align-items: center;
             justify-content: center;
+            padding-bottom: 0px;
             .distritos {
+                height: auto;
                 .img-distritos {
-                    @include sizes (90%, 50%);
+                    @include sizes (100%, 50%);
                 }
             }
         }
@@ -103,18 +105,31 @@
         .h1-que-hacer {
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
         }
         .section-que-hacer {
             div {
                 div {
                     .que-hacer {
-                        margin-bottom: 40px;
+                        margin-bottom: 50px;
                         .img1 {
                             @include sizes (100%, 25%);
                         }
                         .img2 {
                             @include sizes (100%, 45%);
                         }
+                    }
+                }
+            }
+        }
+    }
+    .main-novedades {
+        .section-novedades {
+            div {
+                .novedades {
+                    height: auto;
+                    img {
+                        @include sizes (100%, 35%);
                     }
                 }
             }
