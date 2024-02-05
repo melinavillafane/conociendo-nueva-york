@@ -2,11 +2,11 @@
 .main-novedades {
     .section-novedades {
         div {
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             .novedades {
-                @include sizes(400px, 720px);
+                @include sizes(400px, 730px);
                 img {
-                    @include sizes(100%, 60%);
+                    @include sizes(100%, 50%);
                     @extend %border-img;
                     &:hover {
                         transform: scale(1.1);
