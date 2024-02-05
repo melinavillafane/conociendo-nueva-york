@@ -3,7 +3,7 @@
     .section-novedades {
         div {
             .novedades {
-                @include sizes(400px, 630px);
+                @include sizes(400px, 720px);
                 img {
                     @include sizes(100%, 60%);
                     @extend %border-img;

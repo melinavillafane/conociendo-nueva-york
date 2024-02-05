@@ -89,7 +89,9 @@
 @media screen and (max-width: 320px) {
     .main-distritos {
         .section-distritos {
-            row-gap: 65px;
+            row-gap: 40px;
+            align-items: center;
+            justify-content: center;
             .distritos {
                 .img-distritos {
                     @include sizes (90%, 50%);
@@ -98,11 +100,15 @@
         }
     }
     .main-que-hacer {
+        .h1-que-hacer {
+            display: flex;
+            flex-wrap: wrap;
+        }
         .section-que-hacer {
             div {
                 div {
                     .que-hacer {
-                        margin-bottom: 30px;
+                        margin-bottom: 40px;
                         .img1 {
                             @include sizes (100%, 25%);
                         }

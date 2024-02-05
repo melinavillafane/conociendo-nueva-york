@@ -200,7 +200,7 @@ header nav div a img {
 /*Main novedades*/
 .main-novedades .section-novedades div .novedades {
   width: 400px;
-  height: 630px;
+  height: 720px;
 }
 .main-novedades .section-novedades div .novedades img {
   width: 100%;
@@ -354,14 +354,20 @@ header nav div a img {
 }
 @media screen and (max-width: 320px) {
   .main-distritos .section-distritos {
-    row-gap: 65px;
+    row-gap: 40px;
+    align-items: center;
+    justify-content: center;
   }
   .main-distritos .section-distritos .distritos .img-distritos {
     width: 90%;
     height: 50%;
   }
+  .main-que-hacer .h1-que-hacer {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .main-que-hacer .section-que-hacer div div .que-hacer {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
   .main-que-hacer .section-que-hacer div div .que-hacer .img1 {
     width: 100%;
