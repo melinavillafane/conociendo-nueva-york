@@ -322,7 +322,7 @@ header nav div a img {
     position: relative;
     height: 160px;
   }
-  header nav ul {
+  header nav div div ul {
     flex-direction: column;
   }
   header nav div a img {
@@ -380,7 +380,12 @@ header nav div a img {
     height: 45%;
   }
   .main-que-hacer .section-que-hacer div div .nav-summit {
+    height: auto;
     margin-bottom: 60px;
+    margin-top: 10px;
+  }
+  .main-novedades .section-novedades div {
+    margin-bottom: 0%;
   }
   .main-novedades .section-novedades div .novedades {
     height: auto;
