@@ -104,7 +104,6 @@
             div {
                 div {
                     .que-hacer {
-                        margin-bottom: 50px;
                         .img1 {
                             @include sizes (100%, 25%);
                         }
@@ -115,7 +114,7 @@
                     .nav-summit {
                         height: auto;
                         margin-bottom: 60px;
-                        margin-top: 10px;
+                        margin-top: 20px;
                     }
                 }
             }

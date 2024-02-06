@@ -368,9 +368,6 @@ header nav div a img {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .main-que-hacer .section-que-hacer div div .que-hacer {
-    margin-bottom: 50px;
-  }
   .main-que-hacer .section-que-hacer div div .que-hacer .img1 {
     width: 100%;
     height: 25%;
@@ -382,7 +379,7 @@ header nav div a img {
   .main-que-hacer .section-que-hacer div div .nav-summit {
     height: auto;
     margin-bottom: 60px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .main-novedades .section-novedades div {
     margin-bottom: 0%;
